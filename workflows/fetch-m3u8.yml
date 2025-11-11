@@ -13,7 +13,7 @@ jobs:
 
       - name: Fetch M3U8
         run: |
-          curl -s -o stream.m3u8 "https://ornek.com/original/stream.m3u8"
+          curl -s -o stream.m3u8 "https://tv-trthaber.medya.trt.com.tr/master.m3u8"
 
       - name: Commit and push
         run: |
